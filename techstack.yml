@@ -1,0 +1,58 @@
+repo_name: paulocheloni/FC3-admin-catalogo-de-videos-api-gateway
+report_id: '02978f7fc06009f4954e6198d1a7ac3c'
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-29T14:28:09+00:00'
+requested_by: claudioed
+provider: github
+branch: main
+detected_tools_count: 4
+tools:
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/paulocheloni/FC3-admin-catalogo-de-videos-api-gateway
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/paulocheloni/FC3-admin-catalogo-de-videos-api-gateway
+  detection_source: Repo Metadata
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/paulocheloni/FC3-admin-catalogo-de-videos-api-gateway/blob/main/compose/prom-conf/prometheus.yml
+  detection_source: compose/prom-conf/prometheus.yml
+  last_updated_by: claudioed
+  last_updated_on: 2022-05-12 11:37:05.000000000 Z
+- name: Kong
+  description: Open Source Microservice &amp; API Management Layer
+  website_url: https://konghq.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Gateway
+  image_url: https://ucarecdn.com/3cf09daa-4e1e-404e-a612-f8a91c661db2/
+  detection_source_url: https://github.com/paulocheloni/FC3-admin-catalogo-de-videos-api-gateway/blob/main/docker/Dockerfile
+  detection_source: docker/Dockerfile
+  last_updated_by: claudioed
+  last_updated_on: 2022-05-12 11:37:05.000000000 Z
